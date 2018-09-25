@@ -1,0 +1,54 @@
+@import "~antd/lib/style/themes/default.less";
+@import "../../../../utils/utils.less";
+
+
+.wrapper {
+  padding-bottom: 20px;
+  max-width: 350px;
+  .labelStyle {
+    :global {
+      .ant-form-item-label {
+        text-align: left;
+      }
+    }
+  }
+}
+
+.btn {
+  margin-left: 8px;
+}
+
+.btnWrapper {
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+.leftBtn {
+  float: left;
+}
+
+.rightBtn {
+  float: right;
+}
+
+.operation {
+  margin-right: 5px;
+}
+
+.disOperation {
+  margin-right: 5px;
+  color: darkgray;
+  &:hover{
+    color: darkgray;
+  }
+}
+
+.footerBtn {
+  text-align: center;
+  margin-top: 40px;
+  :global {
+    .ant-btn {
+      margin-right: 10px;
+    }
+  }
+}
